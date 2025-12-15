@@ -1,0 +1,176 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS Thumbnails
+.Trashes
+
+# macOS Directories
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Environment Variables and Credentials
+.env
+.env.local
+.env.*.local
+.envrc
+
+# API Keys and Secrets
+**/secrets/
+**/credentials/
+**/*secret*
+**/*credential*
+**/*key*.json
+**/*key*.txt
+**/*token*.json
+**/*token*.txt
+.secrets
+secrets.yaml
+secrets.yml
+credentials.json
+service-account*.json
+
+# Configuration Files with Potential Secrets
+config.local.*
+*config.secret.*
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# AWS Credentials
+.aws/credentials
+.aws/config
+
+# Google Cloud Credentials
+gcloud/
+.config/gcloud/
+
+# Azure Credentials
+.azure/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+*~.nib
+
+# Operating System Files (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Coverage Reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Documentation Builds
+docs/_build/
+site/
+
+# Private Notes and Documents
+PRIVATE.md
+CONFIDENTIAL.md
+TODO.private
+notes.private.*
+
+# Archive Files (potentially containing sensitive data)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
